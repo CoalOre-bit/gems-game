@@ -1,0 +1,44 @@
+.board {
+  position: relative;
+  width: 480px;
+  height: 480px;
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+}
+
+.board-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-panel {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.particle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  z-index: 10;
+  pointer-events: none;
+  box-shadow: 0 0 12px white;
+  animation: pop 0.5s ease-out forwards;
+}
+
+@keyframes pop {
+  0% {
+    opacity: 1;
+    transform: scale(0.6) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2.5) translateY(-30px);
+  }
+}
