@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gems-game/static/css/main.c5906a12.css",
-    "main.js": "/gems-game/static/js/main.291d49b9.js",
+    "main.css": "/gems-game/static/css/main.f84104ce.css",
+    "main.js": "/gems-game/static/js/main.42131ae9.js",
     "static/media/sprite_3.svg": "/gems-game/static/media/sprite_3.1683bfe6799112275450c7a0e0f96f3e.svg",
     "static/media/sprite_0.svg": "/gems-game/static/media/sprite_0.7fd7286151b71bdc936c04de3454c38e.svg",
     "static/media/sprite_2.svg": "/gems-game/static/media/sprite_2.fb111541b65183b54f801084cf31f0ac.svg",
@@ -10,11 +10,11 @@
     "static/media/sprite_4.svg": "/gems-game/static/media/sprite_4.a2eaac2c2a9d74888386a6ba2f46d68c.svg",
     "static/media/sprite_6.svg": "/gems-game/static/media/sprite_6.0a0fa07ee913c4da0e742e1b51e06b2c.svg",
     "index.html": "/gems-game/index.html",
-    "main.c5906a12.css.map": "/gems-game/static/css/main.c5906a12.css.map",
-    "main.291d49b9.js.map": "/gems-game/static/js/main.291d49b9.js.map"
+    "main.f84104ce.css.map": "/gems-game/static/css/main.f84104ce.css.map",
+    "main.42131ae9.js.map": "/gems-game/static/js/main.42131ae9.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5906a12.css",
-    "static/js/main.291d49b9.js"
+    "static/css/main.f84104ce.css",
+    "static/js/main.42131ae9.js"
   ]
 }
